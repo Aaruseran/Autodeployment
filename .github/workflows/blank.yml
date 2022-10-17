@@ -1,3 +1,10 @@
+name: test build
+
+on:
+  push:
+    branches:
+     - main
+
 deploy:
 
   runs-on: ubuntu-latest
